@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'snygard'
 SITENAME = 'severalfew'
@@ -11,6 +12,7 @@ PATH = 'content'
 TIMEZONE = 'America/Boise'
 
 DEFAULT_LANG = 'English'
+THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'theme')
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
